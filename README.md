@@ -42,7 +42,7 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 # Dataset 캐글 참조
 https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
 
-# 참조
+# 참고
 
 이 코드는 OpenCV, Keras, Tkinter 등 다양한 라이브러리를 활용하여 구현되었습니다.
 현재 모델은 용량으로 인해 제외하였습니다.
