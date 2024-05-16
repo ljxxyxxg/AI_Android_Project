@@ -28,7 +28,7 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 1. Python 3.8 버전이상.
 2. 필요한 라이브러리를 설치합니다. (`pip install opencv-python keras numpy pygame pillow firebase-admin 등`)
 3. `Firebase참조.json` 파일에 Firebase 프로젝트의 인증 정보를 제공합니다.
-4. `CNN__model11.h5`와 `haarcascade` 폴더를 포함한 모든 필요한 파일을 프로젝트 폴더에 추가합니다.
+4. `CNN__model.h5`와 `haarcascade` 폴더를 포함한 모든 필요한 파일을 프로젝트 폴더에 추가합니다.
 5. 코드를 실행합니다. (`detectionButton.py`)
 6. GUI를 통해 시스템을 시작, 중지, 재시작 할 수 있습니다.
 
@@ -40,7 +40,7 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 4. Firebase Realtime Database에 데이터가 저장되고, Android 앱에서 해당 데이터를 읽어와 표시합니다.
 
 # Dataset 캐글 참조
-
+https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
 
 # 참조
 
@@ -48,7 +48,11 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 현재 모델은 용량으로 인해 제외하였습니다.
 
 # 참고영상
-https://github.com/ljxxyxxg/AI_Project/assets/152591039/a22c1a0b-73f8-4a34-ac54-7fdfe621df11
+https://github.com/ljxxyxxg/AI_Project/assets/152591039/1ef58427-bbe8-4a86-9e20-34dda87ce604
+
+
+
+
 
 
 
