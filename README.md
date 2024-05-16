@@ -19,14 +19,14 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 - 눈 감음 시 경고음 및 시각적 경고 표시
 - 졸음 운전 감지 시 Firebase를 통한 데이터 저장
 
-# 훈련데이터
+# 훈련데이터1
 - 약 20000장
 - train 대비 validation 30% 사용
 
 
 ![model1(overfiting)](https://github.com/ljxxyxxg/AI_Project/assets/152591039/12da38b1-572f-4b05-9835-27a2c50b32f6)
 
-# 훈련데이터
+# 훈련데이터2
 - 약 6000장
 - train 대비 validation 30% 사용
 
