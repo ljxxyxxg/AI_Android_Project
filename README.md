@@ -38,4 +38,5 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 # 참조
 
 이 코드는 OpenCV, Keras, Tkinter 등 다양한 라이브러리를 활용하여 구현되었습니다.
-# AI_Project
+
+# dataset 캐글 참조
