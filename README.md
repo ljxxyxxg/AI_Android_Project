@@ -22,6 +22,14 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 # 훈련데이터
 - 약 20000장
 - train 대비 validation 30% 사용
+![model1(overfiting)](https://github.com/ljxxyxxg/AI_Project/assets/152591039/12da38b1-572f-4b05-9835-27a2c50b32f6)
+
+# 훈련데이터
+- 약 6000장
+- train 대비 validation 30% 사용
+![model1](https://github.com/ljxxyxxg/AI_Project/assets/152591039/5318acc7-cb67-4bd5-9cfb-4025e6d6963f)
+
+## 결과 : 너무 많은 데이터셋은 학습에 있어서 좋지 않다
 
 # 프로그램 실행 방법
 
