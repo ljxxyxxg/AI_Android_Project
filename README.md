@@ -26,8 +26,8 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 # 프로그램 실행 방법
 
 1. Python 3.8 버전이상.
-2. 필요한 라이브러리를 설치합니다. (`pip install opencv-python keras numpy pygame pillow firebase-admin`)
-3. `internet참고.json` 파일에 Firebase 프로젝트의 인증 정보를 제공합니다.
+2. 필요한 라이브러리를 설치합니다. (`pip install opencv-python keras numpy pygame pillow firebase-admin 등`)
+3. `Firebase참조.json` 파일에 Firebase 프로젝트의 인증 정보를 제공합니다.
 4. `CNN__model11.h5`와 `haarcascade` 폴더를 포함한 모든 필요한 파일을 프로젝트 폴더에 추가합니다.
 5. 코드를 실행합니다. (`detectionButton.py`)
 6. GUI를 통해 시스템을 시작, 중지, 재시작 할 수 있습니다.
@@ -42,5 +42,6 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 # 참조
 
 이 코드는 OpenCV, Keras, Tkinter 등 다양한 라이브러리를 활용하여 구현되었습니다.
+현재 모델은 용량으로 인해 제외하였습니다.
 
 # dataset 캐글 참조
