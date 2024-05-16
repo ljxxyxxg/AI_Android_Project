@@ -39,9 +39,16 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 3. `google-services.json` 파일을 프로젝트에 추가합니다.
 4. Firebase Realtime Database에 데이터가 저장되고, Android 앱에서 해당 데이터를 읽어와 표시합니다.
 
+# Dataset 캐글 참조
+
+
 # 참조
 
 이 코드는 OpenCV, Keras, Tkinter 등 다양한 라이브러리를 활용하여 구현되었습니다.
 현재 모델은 용량으로 인해 제외하였습니다.
 
-# Dataset 캐글 참조
+# 참고영상
+https://github.com/ljxxyxxg/AI_Project/assets/152591039/a22c1a0b-73f8-4a34-ac54-7fdfe621df11
+
+
+
