@@ -33,7 +33,7 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 
 ![model1](https://github.com/ljxxyxxg/AI_Project/assets/152591039/5318acc7-cb67-4bd5-9cfb-4025e6d6963f)
 
-- 결과 : 너무 많은 데이터셋은 학습에 있어서 좋지 않다
+
 
 # 프로그램 실행 방법
 
@@ -50,6 +50,11 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 2. Firebase Console에서 Firebase 프로젝트를 생성하고, Realtime Database를 설정합니다.
 3. `google-services.json` 파일을 프로젝트에 추가합니다.
 4. Firebase Realtime Database에 데이터가 저장되고, Android 앱에서 해당 데이터를 읽어와 표시합니다.
+
+# 추가 업데이트 기능
+1. ITS 국가교통정보센터(National Transport Information Center) 오픈 API를 활용
+   실시간 교통사고 현황 조회 가능하게 업데이트 하였습니다.
+2. Tkinter 사용하여 UI부분에 운전자의 운전시간 기록확인 가능하게 업데이트 하였습니다.
 
 # Dataset 캐글 참조
 https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
