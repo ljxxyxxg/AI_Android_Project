@@ -11,11 +11,13 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 import datetime
+import time
+import tkinter as font
 
 # Fire_base 연동
-cred = credentials.Certificate('internet참고.json')
+cred = credentials.Certificate('detection-93def-firebase-adminsdk-3bu1d-8c4dbc63b9.json')
 firebase_admin.initialize_app(cred,{
-'databaseURL' : 'https://internet참고.firebasedatabase.app/'
+'databaseURL' : 'https://detection-93def-default-rtdb.asia-southeast1.firebasedatabase.app/'
 })
 
 sys_running = False
@@ -67,11 +69,15 @@ preScore = 0
 # Tkinter 애플리케이션 생성
 root = tk.Tk()
 root.title("Drowsiness Detection")  # 타이틀 설정
-root.geometry("700x600")
+root.geometry("1200x500")
 
 # 웹캠 비디오를 표시할 레이블 생성
 label = tk.Label(root)
 label.pack(anchor="center")
+
+# 타이머
+start_time = None
+elapsed_time = 0
 
 # 메인
 def update_frame():
@@ -241,10 +247,19 @@ def update_frame():
             label.after(10, update_frame)  # 시스템이 실행 중이면 다음 프레임 예약
 
 
+# 타이머 작동
+def update_timer():
+    global start_time, elapsed_time
+    if sys_running:
+        current_time = time.time()
+        elapsed_time = current_time - start_time
+        formatted_time = time.strftime("%H:%M:%S", time.gmtime(elapsed_time))
+        timer_label.config(text=f"당신의 운전 시간:\n{formatted_time}",font=("Courier",16,"italic"))
+        root.after(100, update_timer)
 
 # Start/Stop 버튼의 command 함수를 수정하여 스레드 시작 및 중지
 def button_system():
-    global sys_running, cap
+    global sys_running, cap, start_time
     if sys_running:
         sys_running = False
         startstop_button.config(text="Start system")
@@ -256,6 +271,8 @@ def button_system():
         startstop_button.config(text="Stop system")
         cap = cv2.VideoCapture(0)
         update_frame()
+        start_time = time.time()
+        update_timer()
 
 # 점수를 강제로 초기화하는 함수
 def reset_score():
@@ -270,15 +287,19 @@ def program_out() :
 
 # Start/Stop 버튼 생성
 startstop_button = Button(root, text="Start/Stop", command=button_system, width=10, height=4)
-startstop_button.pack( side='left', padx=115, pady=30)
+startstop_button.place(relx=0.1, rely=0.4, anchor='w')
 
+# 타이머 tk 생성
+# 폰트 설정
+timer_label = tk.Label(root, text="당신의 운전 시간", font=("Courier",16,"italic"))
+timer_label.place(relx=0.1, rely=0.2, anchor='w')
 # 점수 초기화 버튼 생성
 reset_button = Button(root, text="Reset Score", command=reset_score, width=10, height=4)
-reset_button.pack( side='left', padx=115, pady=30) 
+reset_button.place(relx=0.1, rely=0.6, anchor='w')
 
 # 종료 버튼
 out_button = Button(root, text="Program Out", command=program_out, width=10, height=4)
-out_button.pack( side='left',padx=115, pady=30)
+out_button.place(relx=0.1, rely=0.8, anchor='w')
 
 # Tkinter 애플리케이션 실행
 root.mainloop()

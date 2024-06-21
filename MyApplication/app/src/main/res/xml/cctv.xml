@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<response>
+    <coordtype>1</coordtype>
+    <datacount>20</datacount>
+    <data>
+        <roadsectionid/>
+        <filecreatetime/>
+        <cctvtype>1</cctvtype>
+        <cctvurl>http://cctvsec.ktict.co.kr/2/+MAKvmhuhLCng+SmwOzwVRr9ADys3kFBmCW4OGY0XH42/fg2Xx+LaT31c9P6p8B6zeDT2IiT0gnAOHLJlPChPw==</cctvurl>
+        <cctvresolution/>
+        <coordy>37.42889</coordy>
+        <cctvformat>HLS</cctvformat>
+        <cctvname>[수도권제1순환선] 성남;</cctvname>
+        <coordx>127.12361;</coordx>
+    </data>
+    <data>
+        <roadsectionid/>
+        <filecreatetime/>
+        <cctvtype>1</cctvtype>
+        <cctvurl>http://cctvsec.ktict.co.kr/2/+MAKvmhuhLCng+SmwOzwVRr9ADys3kFBmCW4OGY0XH42/fg2Xx+LaT31c9P6p8B6zeDT2IiT0gnAOHLJlPChPw==</cctvurl>
+        <cctvresolution/>
+        <coordy>37.42889</coordy>
+        <cctvformat>HLS</cctvformat>
+        <cctvname>[수도권제1순환선] 성남;</cctvname>
+        <coordx>127.12361;</coordx>
+    </data>
+</response>
