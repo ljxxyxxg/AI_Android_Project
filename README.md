@@ -64,10 +64,33 @@ https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
 이 코드는 OpenCV, Keras, Tkinter 등 다양한 라이브러리를 활용하여 구현되었습니다.
 현재 모델은 용량으로 인해 제외하였습니다.
 
+# 실행화면 
+- CCTV 메인 화면
+ 
+![메인화면](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/b5285fa2-2244-4f1d-aca2-064b81cc5fec)
+
+- 안전 상태 opene yes
+ 
+  ![blackopen](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/d679a42c-9cee-40dd-b3df-44fd7c9f6d00)
+  
+- 안전 상태 close eyes (Score +1)
+  
+![blackclose](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/eaab1b42-0a4c-4875-ad47-b604573e1f7b)
+
+- Score 10 이상시 레드 화면 open eyes( Score -1) 
+ 
+![redopen](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/dee0f54b-3ecb-4058-8a95-08fe7183c878)
+
+- Score 10 이상시 레드 화면 close eyes (Score +1)
+
+![redclose](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/520745f9-3e27-4435-a5a0-05b409629647)
+
+- 졸음운전 기록 앱으로 받아오기
+  
+![졸음운전2](https://github.com/JOJUNHYUNG0818/Drowsiness_Detection/assets/152590602/30ff11c1-42d2-4651-a610-caf4bfc244ff)
+
 # 참고영상
 https://github.com/ljxxyxxg/AI_Project/assets/152591039/1ef58427-bbe8-4a86-9e20-34dda87ce604
-
-
 
 
 
