@@ -19,20 +19,11 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 - 눈 감음 시 경고음 및 시각적 경고 표시
 - 졸음 운전 감지 시 Firebase를 통한 데이터 저장
 
-# 모델학습1
-- 약 20000장
-- train 대비 validation 30% 사용
-
-
-![model1(overfiting)](https://github.com/ljxxyxxg/AI_Project/assets/152591039/12da38b1-572f-4b05-9835-27a2c50b32f6)
-
-# 모델학습2
+# 모델학습
 - 약 6000장
 - train 대비 validation 30% 사용
 
-
 ![model1](https://github.com/ljxxyxxg/AI_Project/assets/152591039/5318acc7-cb67-4bd5-9cfb-4025e6d6963f)
-
 
 
 # 프로그램 실행 방법
@@ -60,7 +51,6 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
 
 # 참고
-
 이 코드는 OpenCV, Keras, Tkinter 등 다양한 라이브러리를 활용하여 구현되었습니다.
 현재 모델은 용량으로 인해 제외하였습니다.
 
