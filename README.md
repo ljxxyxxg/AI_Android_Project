@@ -86,6 +86,16 @@ https://github.com/ljxxyxxg/AI_Project/assets/152591039/1ef58427-bbe8-4a86-9e20-
   
 2. Tkinter 사용하여 UI부분에 운전자의 운전시간 기록확인 가능하게 업데이트 하였습니다.
 
+운전시간(전)
+![운전시간(전)](https://github.com/ljxxyxxg/AI_Android_Project/assets/152591039/41efa58f-bc2c-44c8-b7a9-57b079928deb)
+
+운전시간(후)
+![운전시간(후)](https://github.com/ljxxyxxg/AI_Android_Project/assets/152591039/0f29a263-3dda-4c08-9896-2f24874009c8)
+
+코드구현
+![코드구현](https://github.com/ljxxyxxg/AI_Android_Project/assets/152591039/ea296cb1-9810-45fe-b246-5dfdee435853)
+
+
 
 
 
