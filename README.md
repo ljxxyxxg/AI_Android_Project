@@ -18,6 +18,8 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 - 웹캠 영상을 통한 운전자의 눈 상태 감지
 - 눈 감음 시 경고음 및 시각적 경고 표시
 - 졸음 운전 감지 시 Firebase를 통한 데이터 저장
+  
+![화면 캡처 2024-07-01 113023](https://github.com/ljxxyxxg/AI_Android_Project/assets/152591039/fc1242d6-5479-4abb-a41a-332fc510b704)
 
 # 모델학습
 - 약 6000장
