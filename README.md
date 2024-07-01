@@ -40,7 +40,7 @@ OpenCV와 Keras를 사용하여 구현되었으며, Firebase를 통해 데이터
 1. Android Studio를 사용하여 프로젝트를 엽니다.
 2. Firebase Console에서 Firebase 프로젝트를 생성하고, Realtime Database를 설정합니다.
 3. `google-services.json` 파일을 프로젝트에 추가합니다.
-4. Firebase Realtime Database에 데이터가 저장되고, Android 앱에서 해당 데이터를 읽어와 표시합니다.
+4. Firebase Realtime Database에 데이터가 저장되고, Android 앱에서 해당 데이터를 읽어와 표시합니다. 실시간으로 졸음 운전 시간 및 정보 확인 가능
 
 # Dataset 캐글 참조
 https://www.kaggle.com/datasets/prasadvpatil/mrl-dataset
